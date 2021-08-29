@@ -1,0 +1,102 @@
+CASE
+Fractal Design Meshify 2 Compact
+Lian Li Lancool II Mesh
+Phanteks Eclipse P360A
+Corsair Obsidian Series 4000X RGB
+Antec P82 Silent
+
+MOTHERBOARD
+ Asus ROG Maximus XII Extreme
+MSI MPG Z490 Gaming Carbon WiFi
+ASRock B460 Steel Legend
+ Gigabyte Z390 Aorus Ultra
+Asus ROG Crosshair VIII Dark Hero
+
+CPU
+AMD Ryzen 9 5900X
+Intel Core i5-10600K
+AMD Ryzen 5 3600X
+AMD Ryzen 7 5800X
+Intel Core i3 10100F 
+AMD Athlon 300GE
+AMD Ryzen 3 3100
+
+GPU
+Nvidia GeForce RTX 3060 Ti
+MSI GeForce RTX 3090 Gaming X Trio
+AMD Radeon RX 6600 XT
+RX 570
+PNY GeForce GTX 1660 Ti XLR8 Gaming OC
+
+RAM
+Corsair Vengeance LED
+G.Skill Trident Z RGB
+Kingston HyperX Predator
+HyperX Fury RGB 3733MHz
+Adata Spectrix D80
+Crucial Ballistix Sport
+
+STORAGE DEVICE
+KINGSTON KC2500 M.2 NVME SSD
+WESTERN DIGITAL BLACK SN750
+LEXAR NM610
+SAMSUNG 970 EVO PLUS
+CORSAIR MP400
+INTEL SSD 665P
+CRUCIAL P1
+
+COOLING
+Corsair H115i RGB Platinum
+Noctua NH-D15
+EVGA CLC 240
+Cooler Master Hyper 212 EVO
+GamerStorm Deep Cool Assassin III
+
+PSU
+XPG Core Reactor 650W
+Corsair CX450
+be quiet! Dark Power Pro 12 1500W
+SilverStone SX1000 SFX-L
+
+MONITOR
+Porsche Design AOC Agon PD27
+BenQ EX2780Q
+Dell 27 Curved Monitor (S2721HGF)
+HP 24mh
+Lenovo ThinkVision M14
+LG 49WL95C-W
+
+KEYBOARD
+Asus ROG Claymore II Wireless Keyboard
+Drop ENTR Mechanical Keyboard
+Razer Pro Type Wireless Mechanical Keyboard
+Kinesis TKO Gaming Keyboard
+Fnatic Streak65 Gaming Keyboard
+Das Keyboard 4C TKL Mechanical Keyboard
+Happy Hacking Professional Hybrid Wireless Mechanical Keyboard
+
+MOUSE
+Microsoft Surface Mobile Mouse
+Razer Pro Click Wireless Mouse
+HyperX Pulsefire Haste Gaming Mouse
+HP Omen Photon
+Corsair Sabre RGB Pro Champion Series Gaming Mouse
+Logitech G Pro X Superlight Wireless Gaming Mouse
+
+HEADSET
+Razer BlackShark V2 Pro
+Corsair HS80 RGB Wireless
+Logitech G Pro X Wireless
+SteelSeries Arctis Pro
+Astro A50 Wireless (2019)
+
+GAMING CHAIR
+Secretlab Titan Softweave
+Logitech G x Herman Miller Embody
+NeueChair 
+ AndaSeat Kaiser 2
+Noblechairs Hero
+Corsair T3 Rush
+DXRacer Master
+
+
