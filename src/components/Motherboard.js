@@ -17,7 +17,7 @@ function Motherboard() {
                 <input type="radio" value="MSI MPG Z490 Gaming Carbon WiFi" id="msi" name="board"></input> 
                 <label htmlFor="msi">MSI MPG Z490 Gaming Carbon WiFi</label><br /><br />
 
-                <input type="radio" value="ASRock B460 Steel Legend" id="asrock" name="case" name="board"></input> 
+                <input type="radio" value="ASRock B460 Steel Legend" id="asrock" name="board"></input> 
                 <label htmlFor="asrock">ASRock B460 Steel Legend</label><br /><br />
 
                 <input type="radio" value="Gigabyte Z390 Aorus Ultra" id="gigabyte" name="board"></input> 

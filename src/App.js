@@ -6,20 +6,24 @@ import Case from './components/Case';
 import Motherboard from './components/Motherboard';
 
 function App() {
-  const [item, setItem] = useState([]);
-  console.log(item);
-  
-  function handleSubmit(e) {
-    setItem(e.target.value);
-  }
+  const [item, setItem] = useState({case:"", board:""});
 
+  function formSubmit(e){
+    e.preventDefault();
+    console.log(item);
+  }
+  
   return (
     <Router>
       <div className="App">
         <Switch>
         <Route path="/" exact component={Introduction} />
-        <Route path="/case" exact component={Case} setItem={handleSubmit} item={item} />
-        <Route path="/motherboard" exact component={Motherboard} />
+
+        <Route path="/case" exact>
+          <Case item={item} setItem={setItem} formSubmit={formSubmit} />
+        </Route>
+
+        <Route path="/motherboard" exact><Motherboard /></Route>
         </Switch>
       </div>
     </Router>
