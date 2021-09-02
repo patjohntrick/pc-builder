@@ -1,6 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --back-color: #0c010c;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: var(--back-color);
+    color: #fff;
+}
+.links{
+    text-decoration: none;
+}
+.text-neon{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form h2{
+   animation: pulsate .5s ease-in-out infinite alternate; 
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+input[type="submit"]{
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    font-size: 1.3em;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    cursor: pointer;
+    animation: btn-style 1s infinite alternate;  
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #f09,
+                0 0 0.8rem #f09,
+                0 0 2.8rem #f09,
+                inset 0 0 1.3rem #f09;
+    background: transparent; 
+}
+label{
+    transition: .3s;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + label {
+    font-size: 21px;
+    text-shadow:
+      0 0 7px #f09,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+}
+nav{
+    position: absolute;
+    width: 100%;
+}
+nav .logo{
+    padding: 20px 40px;
+}
+nav h2{
+    font-size: 2em;
+    animation: pulsate .5s ease-in-out infinite alternate; 
+    letter-spacing: 8px;
+    font-weight: 700;
+    color: #fff;
+}
+.intro{
+    height: 100vh;
+    position: relative;
+}
+.intro .text-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.intro h1{
+    animation: pulsate .5s ease-in-out infinite alternate;  
+    font-size: 5em;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+.intro p{
+font-size: 1.3em;
+width: 200px;
+margin: auto;
+margin-top: 5rem;
+cursor: pointer;
+animation: btn-style 1s infinite alternate;  
+border: 2px solid #fff;
+border-radius: 5px;
+padding: 15px 20px;
+box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #f09,
+            0 0 0.8rem #f09,
+            0 0 2.8rem #f09,
+            inset 0 0 1.3rem #f09;
+}
+
+
+@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+  
+  
+  }  
+}
+
+@keyframes btn-style {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #f09,
+      0 0 45px #f09,
+      0 0 55px #f09,
+      0 0 70px #f09,
+      0 0 80px #f09;
+  
+  }
 }
