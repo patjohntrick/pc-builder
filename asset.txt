@@ -6,10 +6,10 @@ Corsair Obsidian Series 4000X RGB
 Antec P82 Silent
 
 MOTHERBOARD
- Asus ROG Maximus XII Extreme
+Asus ROG Maximus XII Extreme
 MSI MPG Z490 Gaming Carbon WiFi
 ASRock B460 Steel Legend
- Gigabyte Z390 Aorus Ultra
+Gigabyte Z390 Aorus Ultra
 Asus ROG Crosshair VIII Dark Hero
 
 CPU
