@@ -99,4 +99,6 @@ Noblechairs Hero
 Corsair T3 Rush
 DXRacer Master
 
+<button type="submit" className="text-neon">Next</button>
+
 

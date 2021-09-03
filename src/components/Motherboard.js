@@ -34,11 +34,10 @@ function Motherboard(props) {
 
                 <label htmlFor="crosshair" name="case">Asus ROG Crosshair VIII Dark Hero</label><br /><br />
 
-                <button type="submit" className="text-neon">Next</button>
 
-                {/* <Link to="/motherboard">
+                <Link to="/cpu">
                 <button type="submit" value="Next" className="text-neon">Next</button>
-                </Link> */}
+                </Link>
             </form>
         </div>
     )
