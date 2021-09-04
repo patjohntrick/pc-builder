@@ -8,6 +8,14 @@ import Cpu from './components/Cpu';
 import Gpu from './components/Gpu';
 import Ram from './components/Ram';
 import Storage from './components/Storage';
+import Cooling from './components/Cooling';
+import Psu from './components/Psu';
+import Monitor from './components/Monitor';
+import Keyboard from './components/Keyboard';
+import Mouse from './components/Mouse';
+import Headset from './components/Headset';
+import Chair from './components/Chair';
+import Output from './components/Output';
 
 function App() {
   const [ccase, setCcase] = useState({case:""});
@@ -16,15 +24,15 @@ function App() {
   const [gpu, setGpu] = useState({gpu:""});
   const [ram, setRam] = useState({ram:""});
   const [storage, setStorage] = useState({storage:""});
-  // const [cooling, setCooling] = useState({cooling:""});
-  // const [psu, setPsu] = useState({psu:""});
-  // const [monitor, setMonitor] = useState({monitor:""});
-  // const [keyboard, setKeyboard] = useState({keyboard:""});
-  // const [mouse, setMouse] = useState({mouse:""});
-  // const [headset, setHeadset] = useState({headset:""});
-  // const [chair, setChair] = useState({chair:""});
+  const [cooling, setCooling] = useState({cooling:""});
+  const [psu, setPsu] = useState({psu:""});
+  const [monitor, setMonitor] = useState({monitor:""});
+  const [keyboard, setKeyboard] = useState({keyboard:""});
+  const [mouse, setMouse] = useState({mouse:""});
+  const [headset, setHeadset] = useState({headset:""});
+  const [chair, setChair] = useState({chair:""});
 
-  const build = {computer: {...ccase, ...board, ...cpu, ...gpu}};
+  const build = {computer: {...ccase, ...board, ...cpu, ...gpu, ...ram, ...storage, ...cooling, ...psu, ...monitor, ...keyboard, ...mouse, ...headset, ...chair}};
 
   function formSubmit(e){
     e.preventDefault();
@@ -54,6 +62,34 @@ function App() {
   function storageHandle(e){
     setStorage({storage:e.target.value});
   }
+
+  function coolingHandle(e){
+    setCooling({cooling:e.target.value});
+  }
+
+  function psuHandle(e){
+    setPsu({psu:e.target.value})
+  }
+
+  function monitorHandle(e){
+    setMonitor({monitor:e.target.value});
+  }
+
+  function keyboardHandle(e){
+    setKeyboard({keyboard:e.target.value});
+  }
+
+  function mouseHandle(e){
+    setMouse({mouse:e.target.value});
+  }
+
+  function headsetHandle(e){
+    setHeadset({headset:e.target.value});
+  }
+
+  function chairHandle(e){
+    setChair({chair:e.target.value});
+  }
   return (
     <Router>
       <div className="App">
@@ -82,6 +118,38 @@ function App() {
 
         <Route path="/storage" exact>
           <Storage formSubmit={formSubmit} handleChange={storageHandle} />
+        </Route>
+
+        <Route path="/cooling" exact>
+          <Cooling formSubmit={formSubmit} handleChange={coolingHandle} />
+        </Route>
+
+        <Route path="/psu" exact>
+          <Psu formSubmit={formSubmit} handleChange={psuHandle} />
+        </Route>
+
+        <Route path="/monitor" exact>
+          <Monitor formSubmit={formSubmit} handleChange={monitorHandle} />
+        </Route>
+
+        <Route path="/keyboard" exact>
+          <Keyboard formSubmit={formSubmit} handleChange={keyboardHandle} />
+        </Route>
+
+        <Route path="/mouse" exact>
+          <Mouse formSubmit={formSubmit} handleChange={mouseHandle} />
+        </Route>
+
+        <Route path="/headset" exact>
+          <Headset formSubmit={formSubmit} handleChange={headsetHandle} />
+        </Route>
+
+        <Route path="/chair" exact>
+          <Chair formSubmit={formSubmit} handleChange={chairHandle} />
+        </Route>
+
+        <Route path="/output" exact>
+          <Output formSubmit={formSubmit} build={build}/>
         </Route>
         </Switch>
       </div>

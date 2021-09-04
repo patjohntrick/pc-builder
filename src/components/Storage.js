@@ -30,7 +30,7 @@ function Storage(props) {
 
                 <label htmlFor="corsair">CORSAIR MP400</label><br /><br />
 
-                <Link to="/storage">
+                <Link to="/cooling">
                 <button type="submit" value="Next" className="text-neon">Next</button>
                 </Link>
             </form>
