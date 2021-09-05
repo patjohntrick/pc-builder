@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pc-builder/static/css/main.4c2123df.chunk.css",
+    "main.js": "/pc-builder/static/js/main.1e3e185b.chunk.js",
+    "main.js.map": "/pc-builder/static/js/main.1e3e185b.chunk.js.map",
+    "runtime-main.js": "/pc-builder/static/js/runtime-main.f2580797.js",
+    "runtime-main.js.map": "/pc-builder/static/js/runtime-main.f2580797.js.map",
+    "static/js/2.fdf925f2.chunk.js": "/pc-builder/static/js/2.fdf925f2.chunk.js",
+    "static/js/2.fdf925f2.chunk.js.map": "/pc-builder/static/js/2.fdf925f2.chunk.js.map",
+    "index.html": "/pc-builder/index.html",
+    "static/css/main.4c2123df.chunk.css.map": "/pc-builder/static/css/main.4c2123df.chunk.css.map",
+    "static/js/2.fdf925f2.chunk.js.LICENSE.txt": "/pc-builder/static/js/2.fdf925f2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2580797.js",
+    "static/js/2.fdf925f2.chunk.js",
+    "static/css/main.4c2123df.chunk.css",
+    "static/js/main.1e3e185b.chunk.js"
+  ]
+}
