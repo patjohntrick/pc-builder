@@ -94,7 +94,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-        <Route path="/" exact component={Introduction} />
+        <Route path="/pc-builder" exact component={Introduction} />
 
         <Route path="/case" exact>
           <Case formSubmit={formSubmit} handleChange={caseHandle} />
