@@ -213,9 +213,23 @@ box-shadow: 0 0 .2rem #fff,
     letter-spacing: 1px;
     line-height: 30px;
 }
+.output .output-container p span{
+    animation: pulsate .5s ease-in-out infinite alternate; 
+}
 @media screen and (max-width: 500px) {
     .output .output-container{
         width: 420px;
+        margin: auto;
+    }
+    nav{
+        position: static;
+    }
+    form{
+        position: static;
+        top: 0;
+        left: 0;
+        transform: translate(-0, -0);
+        width: 95%;
         margin: auto;
     }
 }
@@ -223,8 +237,11 @@ box-shadow: 0 0 .2rem #fff,
     .intro ,.text-container h1{
         font-size: 2em;
     }
-    .intro .text-container p, button{
-        font-size: .8em;
+    .intro .text-container button{
+        font-size: 1em;
+    }
+    .intro .text-container p{
+        font-size: .6em;
     }
 }
 @media screen and (max-width: 400px) {

@@ -7,19 +7,19 @@ function Output(props) {
             <Nav />
             <div className="output-container">
                 <h2 className="text-neon">Your PC</h2>
-                <p>Case: {props.build.computer.case} </p>
-                <p>Motherboard: {props.build.computer.motherboard} </p>
-                <p>CPU: {props.build.computer.cpu} </p>
-                <p>GPU: {props.build.computer.gpu} </p>
-                <p>RAM: {props.build.computer.ram} </p>
-                <p>Storage Device: {props.build.computer.storage} </p>
-                <p>Cooling: {props.build.computer.cooling} </p>
-                <p>PSU: {props.build.computer.psu} </p>
-                <p>Monitor: {props.build.computer.monitor} </p>
-                <p>Keyboard: {props.build.computer.keyboard} </p>
-                <p>Mouse: {props.build.computer.mouse} </p>
-                <p>Headset: {props.build.computer.headset} </p>
-                <p>Chair: {props.build.computer.chair} </p>
+                <p><span>Case:</span> {props.build.computer.case} </p>
+                <p><span>Motherboard:</span> {props.build.computer.motherboard} </p>
+                <p><span>CPU:</span> {props.build.computer.cpu} </p>
+                <p><span>GPU:</span> {props.build.computer.gpu} </p>
+                <p><span>RAM:</span> {props.build.computer.ram} </p>
+                <p><span>Storage Device:</span> {props.build.computer.storage} </p>
+                <p><span>Cooling:</span> {props.build.computer.cooling} </p>
+                <p><span>PSU:</span> {props.build.computer.psu} </p>
+                <p><span>Monitor:</span> {props.build.computer.monitor} </p>
+                <p><span>Keyboard:</span> {props.build.computer.keyboard} </p>
+                <p><span>Mouse:</span> {props.build.computer.mouse} </p>
+                <p><span>Headset:</span> {props.build.computer.headset} </p>
+                <p><span>Chair:</span> {props.build.computer.chair} </p>
             </div>
         </div>
     )
